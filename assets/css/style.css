@@ -7,20 +7,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Mulish:wght@400;500;600;700;800&display=swap');
 
 :root{
-  /* Core palette — pulled from the ALP logo (black / dusty rose / white) */
-  --color-bg: #0b0b0c;
-  --color-bg-soft: #141416;
-  --color-bg-elevated: #1c1c1f;
-  --color-border: rgba(245, 239, 236, 0.1);
-  --color-border-strong: rgba(245, 239, 236, 0.2);
+  /* Core palette — a vibrant deep plum-black paired with a true light pink */
+  --color-bg: #201320;
+  --color-bg-soft: #2b1a2b;
+  --color-bg-elevated: #38223a;
+  --color-border: rgba(255, 214, 236, 0.12);
+  --color-border-strong: rgba(255, 214, 236, 0.24);
 
-  --color-text: #f6efec;
-  --color-text-muted: #b7aca7;
-  --color-text-faint: #837a77;
+  --color-text: #fbf1f6;
+  --color-text-muted: #d2b3c5;
+  --color-text-faint: #a17f92;
 
-  --color-rose: #cb9a8f;
-  --color-rose-light: #e3bdb2;
-  --color-rose-dark: #a97c6f;
+  --color-rose: #f2a0c8;
+  --color-rose-light: #ffc3e0;
+  --color-rose-dark: #d16fa0;
+  --color-ink: #2a1424;
   --color-white: #ffffff;
 
   --color-success: #8fbf9f;
@@ -121,7 +122,7 @@ p{ margin: 0 0 1em; color: var(--color-text-muted); }
 
 .btn--primary{
   background: var(--color-rose);
-  color: #201512;
+  color: var(--color-ink);
 }
 .btn--primary:hover{ background: var(--color-rose-light); }
 
@@ -144,7 +145,7 @@ p{ margin: 0 0 1em; color: var(--color-text-muted); }
   height: var(--header-h);
   display: flex;
   align-items: center;
-  background: rgba(11,11,12,0.86);
+  background: rgba(32,19,32,0.86);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--color-border);
 }
@@ -201,7 +202,7 @@ p{ margin: 0 0 1em; color: var(--color-text-muted); }
   padding: 0 5px;
   border-radius: 999px;
   background: var(--color-rose);
-  color: #201512;
+  color: var(--color-ink);
   font-size: 0.68rem;
   font-weight: 800;
   display: flex; align-items: center; justify-content: center;
@@ -282,7 +283,7 @@ p{ margin: 0 0 1em; color: var(--color-text-muted); }
 .card-icon{
   width: 48px; height: 48px;
   border-radius: 999px;
-  background: rgba(203,154,143,0.14);
+  background: rgba(242,160,200,0.16);
   color: var(--color-rose-light);
   display: flex; align-items: center; justify-content: center;
   margin-bottom: 18px;
@@ -346,7 +347,7 @@ p{ margin: 0 0 1em; color: var(--color-text-muted); }
 .cta-banner{
   border-radius: var(--radius-lg);
   padding: 56px 40px;
-  background: linear-gradient(135deg, rgba(203,154,143,0.16), rgba(203,154,143,0.03));
+  background: linear-gradient(135deg, rgba(242,160,200,0.18), rgba(242,160,200,0.03));
   border: 1px solid var(--color-border);
   text-align: center;
 }
@@ -415,7 +416,7 @@ textarea{ resize: vertical; min-height: 130px; }
 input:focus, select:focus, textarea:focus{
   outline: none;
   border-color: var(--color-rose);
-  box-shadow: 0 0 0 3px rgba(203,154,143,0.18);
+  box-shadow: 0 0 0 3px rgba(242,160,200,0.2);
 }
 ::placeholder{ color: var(--color-text-faint); }
 
@@ -434,7 +435,7 @@ input:focus, select:focus, textarea:focus{
 .info-list li{ display: flex; gap: 14px; align-items: flex-start; }
 .info-list .icon-badge{
   width: 40px; height: 40px; border-radius: 999px;
-  background: rgba(203,154,143,0.14); color: var(--color-rose-light);
+  background: rgba(242,160,200,0.16); color: var(--color-rose-light);
   display: flex; align-items: center; justify-content: center; flex-shrink: 0;
   font-size: 1rem;
 }

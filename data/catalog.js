@@ -44,6 +44,38 @@ const services = [
     image: "https://images.unsplash.com/photo-1695048994291-2e96839a0a3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=900"
   },
   {
+    id: "event-coverage",
+    name: "Event Photography & Videography Coverage",
+    price: 300,
+    unit: "event, from",
+    desc: "On-site photo and video coverage for weddings, parties, and milestone celebrations — base rate for a few hours, scaled to your event.",
+    image: "https://images.unsplash.com/photo-1503525443530-339273ca8a86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=900"
+  },
+  {
+    id: "podcast-recording",
+    name: "Podcast Recording Session",
+    price: 120,
+    unit: "session",
+    desc: "A guided recording session for a single episode — audio capture and basic cleanup, ready for you to publish.",
+    image: "https://images.unsplash.com/photo-1589903308904-1010c2294adc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=900"
+  },
+  {
+    id: "brand-identity-design",
+    name: "Brand Identity & Logo Design",
+    price: 250,
+    unit: "package",
+    desc: "A logo and a small brand kit (colors, fonts, and basic usage guide) built for a small business, creator, or personal brand.",
+    image: "https://images.unsplash.com/photo-1716471330463-f475b00f0506?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=900"
+  },
+  {
+    id: "social-media-content",
+    name: "Social Media Content Package",
+    price: 180,
+    unit: "package",
+    desc: "A batch of short-form video and photo content shot and edited for your business or personal brand's social channels.",
+    image: "https://images.unsplash.com/photo-1690883793939-f8cca2f28ee0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=900"
+  },
+  {
     id: "rush-turnaround",
     name: "Rush Turnaround Add-On",
     price: 20,
@@ -85,6 +117,22 @@ const packages = [
     unit: "piece (10-piece minimum)",
     desc: "Matching custom pieces made in quantity for weddings, reunions, memorials, birthdays, or any gathering worth remembering.",
     image: "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=900"
+  },
+  {
+    id: "podcast-launch-package",
+    name: "Podcast Launch Package",
+    price: 275,
+    unit: "package",
+    desc: "Cover art design plus recording and editing for your first three episodes — everything you need to get a show off the ground.",
+    image: "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=900"
+  },
+  {
+    id: "brand-launch-package",
+    name: "Brand Launch Package",
+    price: 350,
+    unit: "package",
+    desc: "Logo, mini brand kit, and a first batch of social media content — a full starter identity for a new or growing business.",
+    image: "https://images.unsplash.com/photo-1776278806688-64ef6a7e2cc5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=900"
   }
 ];
 
