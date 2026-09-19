@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# TODO: no live domain was provided when this site was built.
+# Once alanalouproductions.vip (or your chosen domain) is live, confirm this
+# points at the right URL — update sitemap.xml the same way.
+Sitemap: https://TODO-your-domain-goes-here/sitemap.xml

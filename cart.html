@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Cart | Alana Lou Productions LLC</title>
+<meta name="description" content="Review your custom order from Alana Lou Productions LLC before checking out.">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon-192.png">
+<link rel="apple-touch-icon" href="assets/images/favicon-192.png">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <img src="assets/images/logo-header.png" alt="Alana Lou Productions LLC">
+      <span class="brand-text">Alana Lou Productions</span>
+    </a>
+    <nav class="nav-primary" aria-label="Primary">
+      <ul>
+        <li><a href="index.html" data-nav-link>Home</a></li>
+        <li><a href="about.html" data-nav-link>About</a></li>
+        <li><a href="services.html" data-nav-link>Services</a></li>
+        <li><a href="packages.html" data-nav-link>Packages</a></li>
+        <li><a href="products.html" data-nav-link>Products</a></li>
+        <li><a href="contact.html" data-nav-link>Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a href="cart.html" class="icon-btn" aria-label="View cart">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8h12l-1 12H7L6 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <span class="cart-count" data-cart-count style="display:none;">0</span>
+      </a>
+      <button class="nav-toggle" data-nav-toggle aria-label="Open menu" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<nav class="mobile-nav" data-mobile-nav aria-label="Mobile">
+  <ul>
+    <li><a href="index.html" data-nav-link>Home</a></li>
+    <li><a href="about.html" data-nav-link>About</a></li>
+    <li><a href="services.html" data-nav-link>Services</a></li>
+    <li><a href="packages.html" data-nav-link>Packages</a></li>
+    <li><a href="products.html" data-nav-link>Products</a></li>
+    <li><a href="contact.html" data-nav-link>Contact</a></li>
+    <li><a href="cart.html" data-nav-link>Cart</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Your Cart</span>
+      <h1>Review your order</h1>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:24px;">
+    <div class="container">
+
+      <div id="cart-empty" class="empty-state" style="display:none;">
+        <div class="icon">🛍</div>
+        <h2>Your cart is empty</h2>
+        <p>Take a look at our services, packages, or products to start building your order.</p>
+        <a href="services.html" class="btn btn--primary">Browse Services</a>
+      </div>
+
+      <div id="cart-filled" class="hero-grid" style="align-items:flex-start;">
+        <div>
+          <table class="cart-table">
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Total</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="cart-rows"></tbody>
+          </table>
+        </div>
+        <div class="summary-card">
+          <h3 class="mt-0">Order Summary</h3>
+          <div class="summary-row">
+            <span>Subtotal</span>
+            <span id="cart-subtotal">$0.00</span>
+          </div>
+          <p class="form-note" style="margin-top:0;">Shipping, custom-order details, and any bulk pricing will be confirmed with you directly after checkout.</p>
+          <div class="summary-row total">
+            <span>Estimated Total</span>
+            <span id="cart-total">$0.00</span>
+          </div>
+          <a href="checkout.html" class="btn btn--primary btn--block" style="margin-top:16px;">Proceed to Checkout</a>
+          <a href="services.html" class="btn btn--outline btn--block" style="margin-top:10px;">Continue Browsing</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/images/logo-header.png" alt="Alana Lou Productions LLC">
+        <p>Custom digital art, decor, apparel, and photography made from your photos — crafted in Las Vegas for everyday moments and once-in-a-lifetime ones.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="packages.html">Packages</a></li>
+          <li><a href="products.html">Products</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="checkout.html">Checkout</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:info@alanalouproductions.vip">info@alanalouproductions.vip</a></li>
+          <li><a href="tel:+18135627633">813-562-7633</a></li>
+          <li>Las Vegas, Nevada — open daily</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year></span> Alana Lou Productions LLC. All rights reserved.</span>
+      <div class="legal-links">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-conditions.html">Terms &amp; Conditions</a>
+        <a href="legal-notice.html">Legal Notice</a>
+        <a href="cookies-notice.html">Cookie Notice</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="cookie-banner" data-cookie-banner>
+  <p>We use a few cookies to keep the site running smoothly and to understand how visitors use it. See our <a href="cookies-notice.html">Cookie Notice</a> for details.</p>
+  <div class="cookie-actions">
+    <button class="btn btn--primary btn--sm" data-cookie-accept>Accept</button>
+    <button class="btn btn--outline btn--sm" data-cookie-decline>Decline</button>
+  </div>
+</div>
+
+<script src="assets/js/cart.js"></script>
+<script>
+(function () {
+  function render() {
+    const items = ALPCart.getItems();
+    const emptyEl = document.getElementById("cart-empty");
+    const filledEl = document.getElementById("cart-filled");
+    const rowsEl = document.getElementById("cart-rows");
+
+    if (!items.length) {
+      emptyEl.style.display = "block";
+      filledEl.style.display = "none";
+      return;
+    }
+    emptyEl.style.display = "none";
+    filledEl.style.display = "grid";
+
+    rowsEl.innerHTML = "";
+    items.forEach(function (item) {
+      const tr = document.createElement("tr");
+      tr.innerHTML =
+        "<td>" +
+          '<div class="cart-row-item">' +
+            (item.image ? '<img src="' + item.image + '" alt="" style="width:56px;height:56px;object-fit:cover;border-radius:8px;">' : "") +
+            "<div>" +
+              '<div class="name">' + item.name + "</div>" +
+              (item.unit ? '<div class="meta">' + item.unit + "</div>" : "") +
+            "</div>" +
+          "</div>" +
+        "</td>" +
+        "<td>" + ALPCart.formatMoney(item.price) + "</td>" +
+        "<td>" +
+          '<div class="qty-control">' +
+            '<button type="button" data-qty-down>&minus;</button>' +
+            '<span data-qty-value>' + item.qty + "</span>" +
+            '<button type="button" data-qty-up>+</button>' +
+          "</div>" +
+        "</td>" +
+        "<td>" + ALPCart.formatMoney(item.price * item.qty) + "</td>" +
+        '<td><button type="button" class="remove-link" data-remove>Remove</button></td>';
+
+      tr.querySelector("[data-qty-up]").addEventListener("click", function () {
+        ALPCart.updateQty(item.id, item.qty + 1);
+        render();
+      });
+      tr.querySelector("[data-qty-down]").addEventListener("click", function () {
+        ALPCart.updateQty(item.id, item.qty - 1);
+        render();
+      });
+      tr.querySelector("[data-remove]").addEventListener("click", function () {
+        ALPCart.remove(item.id);
+        render();
+      });
+
+      rowsEl.appendChild(tr);
+    });
+
+    const subtotal = ALPCart.subtotal();
+    document.getElementById("cart-subtotal").textContent = ALPCart.formatMoney(subtotal);
+    document.getElementById("cart-total").textContent = ALPCart.formatMoney(subtotal);
+  }
+
+  render();
+})();
+</script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  TODO: no live domain was provided when this site was built.
+  Replace https://TODO-your-domain-goes-here/ below with your real domain
+  (for example https://alanalouproductions.vip/) once one is set up.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://TODO-your-domain-goes-here/index.html</loc></url>
+  <url><loc>https://TODO-your-domain-goes-here/about.html</loc></url>
+  <url><loc>https://TODO-your-domain-goes-here/services.html</loc></url>
+  <url><loc>https://TODO-your-domain-goes-here/packages.html</loc></url>
+  <url><loc>https://TODO-your-domain-goes-here/products.html</loc></url>
+  <url><loc>https://TODO-your-domain-goes-here/contact.html</loc></url>
+  <url><loc>https://TODO-your-domain-goes-here/cart.html</loc></url>
+  <url><loc>https://TODO-your-domain-goes-here/checkout.html</loc></url>
+  <url><loc>https://TODO-your-domain-goes-here/thank-you.html</loc></url>
+  <url><loc>https://TODO-your-domain-goes-here/privacy-policy.html</loc></url>
+  <url><loc>https://TODO-your-domain-goes-here/terms-conditions.html</loc></url>
+  <url><loc>https://TODO-your-domain-goes-here/legal-notice.html</loc></url>
+  <url><loc>https://TODO-your-domain-goes-here/cookies-notice.html</loc></url>
+</urlset>
