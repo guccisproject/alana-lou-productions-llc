@@ -156,8 +156,18 @@ p{ margin: 0 0 1em; color: var(--color-text-muted); }
   gap: 24px;
 }
 .brand{ display: flex; align-items: center; gap: 12px; }
-.brand img{ height: 46px; width: auto; }
 .brand-text{ display: none; }
+
+.logo-chip{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-white);
+  border-radius: 6px;
+  padding: 6px;
+  flex-shrink: 0;
+}
+.logo-chip img{ height: 36px; width: auto; display: block; }
 
 .nav-primary{ display: none; }
 .nav-primary ul{
@@ -368,7 +378,8 @@ p{ margin: 0 0 1em; color: var(--color-text-muted); }
 @media (min-width: 780px){
   .footer-grid{ grid-template-columns: 1.4fr 1fr 1fr 1fr; }
 }
-.footer-brand img{ height: 40px; margin-bottom: 16px; }
+.footer-brand .logo-chip{ margin-bottom: 16px; padding: 8px; }
+.footer-brand .logo-chip img{ height: 34px; }
 .footer-brand p{ max-width: 320px; font-size: 0.92rem; }
 .footer-col h4{
   font-family: var(--font-body);
